@@ -98,11 +98,6 @@ img{
     padding: 20px 0px 20px 10px;
     width: 25px;
 }
-{
-    display: block;
-    width: 40px;
-    background-color: white;
-}
 new{
     flex-basis: 10%;
     background-color: red;

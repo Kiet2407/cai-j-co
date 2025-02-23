@@ -1,0 +1,63 @@
+#header p{
+    display: inline-block;
+    width: 80px;
+    border: 2px;
+    text-align: center;
+    padding: 4px;
+}
+#header{
+    background: linear-gradient(45deg, blue,rgb(12, 12, 12));
+    border-radius: 5px;
+}
+#wrapper{
+    max-width: 950px;
+    margin: 0 auto;
+}
+#wp-content{
+    display: flex;
+    height: 1.5;
+}
+#content{
+    flex-basis: 90%;
+}
+#sidebar{
+    flex-basis: 10%;
+    background-color: red;
+    padding: 10px 15px;
+    margin: 5px 5px 5px 0px;
+    height: 150px;
+}
+#sidebar p{
+    color: white;
+    display: inline-block;
+    background: 2px solid black;
+    padding: 10px;
+}
+a{
+    display: inline-block;
+    width: 267px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 0px 15px 0px;
+    border: 2px solid blue;
+}
+#footer{
+    display: block;
+    background-color: red;
+    padding: 10px;
+    background: linear-gradient(45deg,red,yellow,orange);
+    font-size: 26px;
+    font-family: monospace;
+}
+img{
+    padding: 0px 2px 5px 0px;
+
+}
+#hover1:hover{
+    background-color: white;
+    color: black;
+}
+#hover2:hover{
+    background-color: white;
+    color: black;
+}

@@ -1,4 +1,4 @@
-#header p{
+#header #id{
     display: inline-block;
     width: 80px;
     border: 2px;
@@ -26,6 +26,13 @@
     padding: 10px 15px;
     margin: 5px 5px 5px 0px;
     height: 150px;
+}
+#sidebar1{
+    flex-basis: 100%;
+    background-color: red;
+    padding: 10px 15px;
+    margin-top: 0px;
+    height: 188px;
 }
 #sidebar p{
     color: white;
@@ -55,17 +62,51 @@ img{
 }
 #hover1:hover{
     background-color: white;
-    color: black;
 }
 #hover2:hover{
     background-color: white;
-    color: black;
 }
 #wrapper p{
     color: white;
 }
-#sidebar div {
-    display: block;
+ #m2{
     background-color: white;
-    width: 20px;
+    display: block;
+    
+ }
+ #sidebar p{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+ }
+#hover2{
+    display: block;
+}
+#m1:hover {
+    background-color: white;
+}
+#m1{
+    margin-top: 6px;
+}
+#m1 , #m2{
+    border-radius: 2px;
+}
+#hover2{
+    border: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 20px 0px 20px 10px;
+    width: 25px;
+}
+{
+    display: block;
+    width: 40px;
+    background-color: white;
+}
+new{
+    flex-basis: 10%;
+    background-color: red;
+    padding: 10px 15px;
+    margin: 5px 5px 5px 0px;
+    height: 150px;
 }

@@ -47,6 +47,7 @@ a{
     text-decoration: none;
     padding: 15px 0px 15px 0px;
     border: 2px solid blue;
+    color: white;
 }
 #footer{
     display: block;
@@ -103,13 +104,26 @@ img{
     height: 150px;
 }
 body{
-    background-image: url(ofcr.png);
+    background-image: url(OIP\ \(1\).jpg);
     backdrop-filter: blur(10px);
-    width: 100vw;
-    height: 100vh;
+    background-size: 100%;
     margin: 0px;
+    background-repeat: no-repeat;
 }
 h2{
     color: blue;
     font-family: sans-serif;
+}
+#btn{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0px 95vw;
+    background-color: blue;
+}
+body:hover{
+    backdrop-filter: blur(0px);
+}
+#btn:hover ~ #wrapper{
+    opacity: 0%;;
 }

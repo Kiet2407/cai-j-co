@@ -25,7 +25,7 @@
     background-color: red;
     padding: 10px 15px;
     margin: 5px 5px 5px 0px;
-    height: 150px;
+    height: 216px;
 }
 #sidebar1{
     flex-basis: 100%;
@@ -84,6 +84,7 @@ img{
 }
 #m2{
     margin-top: 6px;
+    margin-bottom: 6px;
 }
 #m1 , #m2{
     border-radius: 2px;

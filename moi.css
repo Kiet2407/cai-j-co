@@ -25,7 +25,7 @@
     background-color: red;
     padding: 10px 15px;
     margin: 5px 5px 5px 0px;
-    height: 150px;
+    height: 210px;
 }
 #sidebar1{
     flex-basis: 100%;
@@ -126,6 +126,7 @@ body:hover{
     backdrop-filter: blur(0px);
 }
 #btn:hover ~ #wrapper{
-    opacity: 0%;;
+    opacity: 0%;
 }
+
 
